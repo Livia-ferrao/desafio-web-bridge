@@ -34,9 +34,7 @@ function NumberInput({ onUpdateData }) {
   return (
     <div className="container">
       <form onSubmit={(event) => event.preventDefault()} className="form">
-
         <label htmlFor="numberInput" className="form-label">Insira um número inteiro k</label>
-
         <div className="form-input">
           <input 
             type="text" 
@@ -48,7 +46,6 @@ function NumberInput({ onUpdateData }) {
           <button type="button" className="btn" onClick={handleSubmit}>Calcular</button>
         </div>
         {!isValidInteger && <div className="invalid-input">Por favor, insira um número inteiro válido.</div>}
-
       </form>
 
       <div className='result'>

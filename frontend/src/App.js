@@ -1,23 +1,23 @@
-import './App.css'
-import NumberInput from "./components/NumberInput";
-import NumberTable from "./components/NumberTable";
-import React, { useState } from 'react';
+  import './App.css'
+  import NumberInput from "./components/NumberInput";
+  import NumberTable from "./components/NumberTable";
+  import React, { useState } from 'react';
 
-function App() {
+  function App() {
 
-  const [data, setData] = useState([]);
+    const [data, setData] = useState([]);
 
-  const onUpdateData = (newData) => {
-    setData([...data, newData]);
-    console.log(data)
-  };
+    const onUpdateData = (newData) => {
+      setData([...data, newData]);
+      console.log(data)
+    };
 
-  return (
-    <div className="app"> 
-      <NumberInput onUpdateData={onUpdateData} />
-      <NumberTable reload={data} />
-    </div>
-  );
-}
+    return (
+      <div className="app"> 
+        <NumberInput onUpdateData={onUpdateData} />
+        <NumberTable reload={data} />
+      </div>
+    );
+  }
 
-export default App;
+  export default App;

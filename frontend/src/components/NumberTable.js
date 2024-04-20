@@ -24,9 +24,9 @@ function NumberTable({reload}) {
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Number</th>
-                        <th>Count</th>
-                        <th>ExecutionTime</th>
+                        <th>Número</th>
+                        <th>Contagem</th>
+                        <th>Tempo de execução</th>
                     </tr>
                 </thead>
 

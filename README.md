@@ -15,15 +15,6 @@ inteiro k e calcule o número de inteiros positivos primos n MENORES que k
 - Testes com o Postman
 - React
 
-<!-- 
-- Back-end: Java com Spring Boot, Banco de dados com Spring data JPA + MySQL. Rest Controller testado com o uso de Postman
-- Front-end: React com TypeScript, aplicação criada a partir do Vite. Conexão com back-end via Axios, e estilização feita com Bootstrap & Material UI
-- O ambiente de desenvolvimento foi o Linux Ubuntu 20.04.4, com Visual Studio Code e Spring Tools Suite.
-- Testes unitários feitos na back-end, para testar resultados corretos do algoritmo, com o uso do JUnit.
-
-Utiliza: Java, Yarn, Node.js, React.js, Vite, Maven, MySQL
- -->
-
 ## Configuração do Ambiente
 
 ### 1º passo: Clonar repositório
@@ -63,4 +54,4 @@ npm start
 
 
 ## Imagens
-<!-- ![entire page](/imgs/img.png) -->
+![entire page](/imgs/img.png)
