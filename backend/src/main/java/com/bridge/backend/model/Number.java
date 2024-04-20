@@ -30,6 +30,9 @@ public class Number {
     @Column
     private Long executionTime;
 
+    public Number() {
+    }
+
     public Number(int input) {
       this.input = input;
     }

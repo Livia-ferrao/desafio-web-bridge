@@ -21,7 +21,7 @@ public class NumberController {
     @Autowired
 	private NumberService numberService;
 	
-	@GetMapping
+	@GetMapping("/all")
 	public List<Number> getAll() {
 		return numberService.getAll();
 	}

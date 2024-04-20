@@ -31,7 +31,7 @@ public class NumberService {
         numberRepository.save(number);
     }
 
-    private int countPrimesLessThan(int k) {
+    public int countPrimesLessThan(int k) {
         int count = 0;
         for (int i = 2; i < k; i++) {
             if (isPrime(i)) {
@@ -41,7 +41,7 @@ public class NumberService {
         return count;
     }
 
-    private boolean isPrime(int number) {
+    public boolean isPrime(int number) {
         if (number <= 1) return false;
         for (int i = 2; i * i <= number; i++) {
             if (number % i == 0) return false;
