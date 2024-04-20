@@ -54,4 +54,4 @@ npm start
 
 
 ## Imagens
-![entire page](/imgs/img.png)
+![entire page](/public/img.png)
