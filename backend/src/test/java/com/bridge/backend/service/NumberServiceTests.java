@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class NumberServiceTest {
+public class NumberServiceTests {
 
     @Test
     public void countPrimesLessThan() {
