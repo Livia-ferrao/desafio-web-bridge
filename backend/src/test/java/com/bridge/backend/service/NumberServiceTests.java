@@ -29,6 +29,5 @@ public class NumberServiceTests {
         int result4 = numberService.countPrimesLessThan(1);
         assertEquals(0, result4); // Não há números primos menores que 1
     }
-	
 
 }
