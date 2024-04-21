@@ -10,10 +10,11 @@ inteiro k e calcule o número de inteiros positivos primos n MENORES que k
 
 
 ## Tecnologias
-- Spring boot
-- Postgres
-- Testes com o Postman
-- React
+- Java com Spring boot
+- Postgres no banco de dados
+- Testes com da API com Postman
+- React para o frontend
+- CSS puro para estilização
 
 ## Configuração do Ambiente
 
@@ -29,7 +30,7 @@ git clone git@github.com:Livia-ferrao/desafio-web-bridge.git
 Crie um banco de dados chamado fullstack utilizando o terminal ou uma ferramenta de interface gráfica como PGAdmin:
 ```bash
 sudo -u {user} psql
-CREATE DATABASE fullstack;
+CREATE DATABASE desafio_bridge;
 ```
 Configure a url, o username e o password para a conexão do banco de dados em `backend/src/main/resources/application.properties`. 
 
@@ -39,7 +40,7 @@ Navegue até o diretório do backend e execute os seguintes comandos para inicia
 ```bash
 cd ./backend
 mvn clean install
-java -jar ./target/desafiobridge-0.0.1-SNAPSHOT.jar
+java -jar ./target/backend-0.0.1-SNAPSHOT.jar
 ```
 
 
@@ -53,5 +54,5 @@ npm start
 ```
 
 
-## Imagens
+## Imagem
 ![entire page](/public/img.png)
