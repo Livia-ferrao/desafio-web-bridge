@@ -5,7 +5,7 @@
 - Persistência: Armazenamento dos resultados de todos cálculos realizados.
 - Performance: Tempo de execução da consulta em nanosegundos exibido na interface do usuário.
 - Validação de Entrada: A entrada no campo de texto aceita apenas números inteiros, com validação realizada no frontend.
-- Testes: teste unitário da função principal de cálculo.
+- Testes: Teste unitário da função principal de cálculo.
 
 
 ## Tecnologias
