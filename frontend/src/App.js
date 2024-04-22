@@ -9,7 +9,6 @@
 
     const onUpdateData = (newData) => {
       setData([...data, newData]);
-      console.log(data)
     };
 
     return (

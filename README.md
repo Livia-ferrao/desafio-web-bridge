@@ -9,11 +9,8 @@
 
 
 ## Tecnologias
-- Java com Spring boot
-- Postgres no banco de dados
-- Testes da API com Postman
-- React no frontend
-- CSS puro para estilização
+
+O frontend está utilizando React e CSS puro para a estilização. O backend está utilizando linguagem Java com o framework Springboot. A integração do frontend com o backend foi feita com o axios. O banco de dados usado é o postgres. Realizei testes da API com o Postman.
 
 ## Configuração do Ambiente
 

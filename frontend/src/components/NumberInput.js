@@ -33,7 +33,7 @@ function NumberInput({ onUpdateData }) {
   return (
     <div className="container">
       <form onSubmit={(event) => event.preventDefault()} className="form">
-        <label htmlFor="numberInput" className="form-label">Insira um número inteiro k</label>
+        <label htmlFor="numberInput" className="form-label">Insira um número inteiro:</label>
         <div className="form-input">
           <input 
             type="text" 
