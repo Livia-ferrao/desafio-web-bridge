@@ -36,7 +36,7 @@ function NumberTable({reload}) {
                             <td>{index + 1}</td>
                             <td>{item.input}</td>
                             <td>{item.count}</td>
-                            <td>{item.executionTime} ms</td>
+                            <td>{item.executionTime} ns</td>
                         </tr>
                     ))}
                 </tbody>

@@ -19,10 +19,9 @@ public class NumberService {
     }
 
     public void insert(Number number) {
-
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
         int numberCount = countPrimesLessThan(number.getInput());
-        long endTime = System.currentTimeMillis();
+        long endTime = System.nanoTime();
         
         long executionTime = endTime - startTime;
         number.setCount(numberCount);

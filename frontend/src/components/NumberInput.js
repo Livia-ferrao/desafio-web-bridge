@@ -13,13 +13,12 @@ function NumberInput({ onUpdateData }) {
   };
 
   const handleSubmit = async () => {
-
-    setNumber('');
     const isInteger = /^\d+$/.test(number);
     if (!isInteger) {
       setIsValidInteger(false);
       setResult('')
     } else { 
+        setNumber('');
         setIsValidInteger(true);
         try {
             const response = await calculateNumber(number);
@@ -51,12 +50,11 @@ function NumberInput({ onUpdateData }) {
       <div className='result'>
         <div>Resultado: </div>
         {result.input && (
-            <div>Número: {result.input}. Contagem: {result.count}. Tempo de execução: {result.executionTime} ms.</div>
+            <div>Número: {result.input}. Contagem: {result.count}. Tempo de execução: {result.executionTime} ns.</div>
         )}
       </div>
     </div>
   );
-  
 }
   
 export default NumberInput;
